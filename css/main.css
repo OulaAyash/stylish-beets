@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  font-style: bold;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #c9b5ab;
+}
+
+h1, h2{
+  color: #3f1622;
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav ol {
+  color: #8f2440;
+  font-family: 'PT Sans', sans-serif;
+}
+nav ol: hover {
+  color: #3f1622;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: 'PT Serif', serif;
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+* {
+  font-family: 'PT Serif', serif;
+}
+
+p {
+  font-style:bold;
+}

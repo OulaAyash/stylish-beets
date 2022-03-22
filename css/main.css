@@ -14,12 +14,12 @@ h1, h2 {
   font-family: "PT Sans", sans-serif;
 }
 
-nav ol {
+nav ul {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
 }
 
-nav ol:hover {
+nav ul:hover {
   color: #3f1622;
 }
 
@@ -29,15 +29,16 @@ img {
 
 figcaption {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   font-style: italic;
   text-align: center;
 }
 
 * {
   font-family: "PT Serif", serif;
+  box-sizing: inherit;
 }
 
-p {
-  font-style: oblique;
+p::first-line {
+  font-weight: bold;
 }

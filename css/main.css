@@ -58,3 +58,7 @@ ol {
 dt {
   font-weight: bold;
 }
+
+ul {
+  list-style-type: circle; /* Add empty circle bullets (◦) */
+}

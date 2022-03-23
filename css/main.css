@@ -4,6 +4,7 @@ html {
   font-style: normal;
   line-height: 1.5;
   text-decoration: none;
+  width: 608px;
 }
 
 body {
@@ -16,9 +17,11 @@ h1, h2 {
   font-size: 1.5rem;
 }
 
-nav ul {
+nav ol {
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
+  font-size: 1.125rem;
+  list-style-type: none;
 }
 
 nav ul:hover {
@@ -31,7 +34,7 @@ img {
 
 figcaption {
   font-family: "PT Serif", serif;
-  font-size: .8rem;
+  font-size: 1.125rem;
   font-style: italic;
   text-align: center;
 }
@@ -41,12 +44,8 @@ figcaption {
   box-sizing: inherit;
 }
 
-p:first-of-type {
-  font-weight: bold;
-}
-
-.p:last-of-type {
-  text-align: center;
+p:last-of-type {
+  /* text-align: center; */
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -62,4 +61,14 @@ dt {
 
 ul {
   list-style-type: circle; /* Add empty circle bullets (◦) */
+}
+
+a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
 }

@@ -5,18 +5,18 @@
   <title>Beetroot</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">"
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+</head>
 <body>
   <header>
     <h1>Betroot <i>(Beta vulgaris)</i> </h1>
-    <nav>
-      <ul>
-        <li>Common varieties</li>
-        <li>Nutritional information</li>
-        <li>Tags</li>
-      </ul>
+    <nav class="a">
+      <ol>
+        <li><a href="#common-varieties"><strong>Common varieties</strong></a></li>
+        <li><a href="#nutritional-information"><strong>Nutritional information</strong></a></li>
+        <li><a href="#tags"><strong>Tags</strong></a></li>
+      </ol>
     </nav>
   </header>
   <main>
@@ -24,13 +24,14 @@
       <img src="./images/beets.jpg" alt="…">
       <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
     </figure>
-    <p><time datetime="P55D">55</time> to <time datetime="P65D">65</time> days are needed from germination to harvest of the root.</p>
-    The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable. In fact, <cite>Jim Halpert</cite> once said this about beets,<q> Fact,bears eat beets.Bears, beets,<i>Battlestar Galactica</i>.</q>
+    <strong><time datetime="P55D">55</time> to <time datetime="P65D">65</time> days are needed from germination to harvest of the root.</strong>
+    <p>The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.</p>
+    <p>In fact, <cite>Jim Halpert</cite> once said this about beets,<q> Fact,bears eat beets.Bears, beets,<i>Battlestar Galactica</i>.</q></p>
     <blockquote>
-      <p>I have some <em>weird</em> habits. For instance, I love beets. Show me a salad bar and I will clean them out of their beets.</p>
+      <p>I have some weird habits. For instance, I love beets. Show me a salad bar and I will clean them out of their beets.</p>
       <footer>-<cite>Chris Pratt</cite></footer>
     </blockquote>
-    <h2>Common varieties</h2>
+    <h2 id="common-varieties">Common varieties</h2>
     <ol>
       <li>Albino</li>
       <li>Bull’s Blood</li>
@@ -38,8 +39,8 @@
       <li>Detroit Dark Red</li>
       <li>Early Wonder</li>
     </ol>
-    <h2>Nutritional information</h2>
-    <p>Serving size:<data value="100 g"></data></p>
+    <h2 id="nutritional-information">Nutritional information</h2>
+    <p><em>Serving size:<data value="100 g">100 g</data></em></p>
     <dl>
       <dt>Energy:</dt>
       <dd><data value="180 kJ">180kj</data></dd>
@@ -52,7 +53,7 @@
     </dl>
   </main>
   <aside>
-    <h2>Tags</h2>
+    <h2 id="tags">Tags</h2>
   </aside>
   <ul>
     <li>Crimson</li>
@@ -62,7 +63,7 @@
     <li>Delicious</li>
   </ul>
   <footer>
-    <small>Source: <a href="Wikipedia"></a>:Wikipedia; Last modified:
+    <small>Source: <a href="Wikipedia">Wikipedia</a>; Last modified:
       <time datetime="2014-08-30">Aug 30, 2014</time>
     </small>
   </footer>
